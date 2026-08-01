@@ -85,7 +85,7 @@ exports.googleLogin = async (req, res) => {
     const { name, email } = req.body;
 
     if (!name || !email) {
-      return res.status(400), json({
+      return res.status(400).json({
         message: 'Name and email are required'
       })
     }
@@ -136,7 +136,7 @@ exports.updateUserDetails = async (req, res) => {
     const user = await User.findOne({ email })
 
     if (!user) {
-      return res.status(404), json({
+      return res.status(404).json({
         message: 'User not found'
       })
     }
