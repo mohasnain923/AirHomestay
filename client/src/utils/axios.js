@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // 1. Base URL se koi bhi accidental comma hatane ke liye .replace() ka use karein
-const rawBaseUrl = import.meta.env.VITE_BASE_URL || 'http://localhost:4000';
+const rawBaseUrl = import.meta.env.VITE_BASE_URL || 'https://airbnb-backend-3min.onrender.com';
 const BASE_URL = rawBaseUrl.replace(/,/g, '').trim();
 
 const axiosInstance = axios.create({

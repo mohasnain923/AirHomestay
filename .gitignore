@@ -1,5 +1,9 @@
-# Node modules
+# Node modules dono folders ke liye
 node_modules/
+client/node_modules/
+server/node_modules/
 
-# Environment variables
+# Environment variables dono folders ke liye
 .env
+client/.env
+server/.env

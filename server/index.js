@@ -13,7 +13,7 @@ cloudinary.config({
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
-
+                                                                              
 const app = express();
 
 // 1. CORS Middleware (Inhe Express ke dusre middlewares se pehle rakhein)
@@ -21,7 +21,9 @@ const isProduction = process.env.NODE_ENV === "production";
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin:[ process.env.CLIENT_URL || "http://localhost:5173",
+      "https://airbnb-frontend-ashen-three.vercel.app",
+    ],
     credentials: true, // Cookies & Headers allow karne ke liye
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
