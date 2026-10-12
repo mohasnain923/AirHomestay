@@ -43,8 +43,8 @@ Responsive and modern UI built with Tailwind CSS
 
 Connected with a robust RESTful API and cloud storage
 
-🌐 Check it out live here: [https://airbnb-frontend-ashen-three.vercel.app/]
-💻 GitHub Repository: [(https://github.com/mohasnain923/Airbnb-clone)]
+🌐 Check it out live here: https://airbnb-frontend-ashen-three.vercel.app/
+💻 GitHub Repository: https://github.com/mohasnain923/Airbnb-clone
 
 I learned a lot about handling CORS policies, environment configurations, and cloud deployments during this build. Feedback and suggestions are always welcome!
 
