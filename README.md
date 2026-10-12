@@ -1,4 +1,4 @@
-# Airbnb Clone Project
+# AirHomestay Project
 
 Yeh ek full-stack Airbnb clone web application hai jise MERN stack mein banaya gaya hai.
 

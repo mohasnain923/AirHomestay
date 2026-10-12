@@ -19,7 +19,7 @@ If you are developing a production application, we recommend using TypeScript wi
 Apne is MERN stack project ko LinkedIn par share karne ke liye ek bohot hi professional, engaging aur recruiter-friendly post taiyar ki hai. Aap ise copy karke LinkedIn par daal sakte hain:
 
 LinkedIn Post Draft
-🚀 Excited to share my latest full-stack project: A fully functional Airbnb Clone! 🏡✨
+🚀 Excited to share my latest full-stack project: A fully functional AirHomestay project! 🏡✨
 
 I have built and deployed a web application that replicates core Airbnb features, allowing users to explore listings, manage places, and handle secure authentication.
 
@@ -43,8 +43,7 @@ Responsive and modern UI built with Tailwind CSS
 
 Connected with a robust RESTful API and cloud storage
 
-🌐 Check it out live here: https://airbnb-frontend-ashen-three.vercel.app/
-💻 GitHub Repository: https://github.com/mohasnain923/Airbnb-clone
+
 
 I learned a lot about handling CORS policies, environment configurations, and cloud deployments during this build. Feedback and suggestions are always welcome!
 
